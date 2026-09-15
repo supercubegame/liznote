@@ -1,0 +1,30 @@
+# Rust
+/target/
+Cargo.lock
+**/*.rs.bk
+*.pdb
+*.swp
+*.swo
+*~
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build
+/target/
+build/
+dist/
+
+# Test coverage
+/coverage/
+*.profraw
+*.profdata
+/cobertura.xml
